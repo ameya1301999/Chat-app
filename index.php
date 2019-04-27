@@ -36,7 +36,7 @@
 	</form>
 
 	<?php 
-	if(isset($_POST['submit'])) {
+		if(isset($_POST['submit'])) {
 		$name = $_POST['name'];
 		$msg = $_POST['msg'];
 
@@ -51,7 +51,5 @@
 	}
 	?>
 </div>
-
-
 </body>
 </html>
